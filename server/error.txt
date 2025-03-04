@@ -1,0 +1,2496 @@
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
+Connection error: TransportError: websocket error
+    at WS.onError (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transport.js:41:37)
+    at ws.onerror (file:///home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/engine.io-client/build/esm-debug/transports/websocket.js:51:39)
+    at callListener (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onError (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/event-target.js:230:9)
+    at WebSocket.emit (node:events:518:28)
+    at emitErrorAndClose (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:1035:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  description: ErrorEvent {
+    [Symbol(kTarget)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _binaryType: 'nodebuffer',
+      _closeCode: 1006,
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: <Buffer >,
+      _closeTimer: null,
+      _extensions: {},
+      _paused: false,
+      _protocol: '',
+      _readyState: 2,
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _bufferedAmount: 0,
+      _isServer: false,
+      _redirects: 0,
+      _autoPong: true,
+      _url: 'ws://localhost:8080/socket.io/?EIO=4&transport=websocket',
+      _req: [ClientRequest],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kType)]: 'error',
+    [Symbol(kError)]: Error: Unexpected server response: 404
+        at ClientRequest.<anonymous> (/home/abhisek/Documents/minor/BlinkIt-Clone-Full-Stack-Ecommerce/server/node_modules/ws/lib/websocket.js:912:7)
+        at ClientRequest.emit (node:events:518:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:716:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+        at Socket.socketOnData (node:_http_client:558:22)
+        at Socket.emit (node:events:518:28)
+        at addChunk (node:internal/streams/readable:561:12)
+        at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+        at Readable.push (node:internal/streams/readable:392:5)
+        at TCP.onStreamRead (node:internal/stream_base_commons:189:23),
+    [Symbol(kMessage)]: 'Unexpected server response: 404'
+  },
+  context: undefined,
+  type: 'TransportError'
+}
