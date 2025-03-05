@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Apple iPhone 14 Pro",
+    "description": "The iPhone 14 Pro features a 6.1-inch Super Retina XDR display, A16 Bionic chip, and a 48MP camera system for stunning photos and videos."
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Samsung Galaxy S23 Ultra comes with a powerful Snapdragon 8 Gen 2 processor, 200MP camera, and S-Pen for productivity and creativity."
+  },
+  {
+    "name": "Google Pixel 7 Pro",
+    "description": "The Google Pixel 7 Pro delivers exceptional AI-powered photography, Google Tensor G2 chip, and a stunning 6.7-inch LTPO OLED display."
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Sony WH-1000XM5 noise-canceling headphones offer superior sound quality, 30-hour battery life, and industry-leading ANC technology."
+  },
+  {
+    "name": "Bose QuietComfort 45",
+    "description": "Bose QC45 headphones provide comfortable listening with powerful noise cancellation, crisp audio, and up to 24-hour battery life."
+  },
+  {
+    "name": "MacBook Pro M2",
+    "description": "Apple MacBook Pro with M2 chip delivers incredible speed, a Liquid Retina XDR display, and up to 20 hours of battery life for professionals."
+  },
+  {
+    "name": "Dell XPS 13 Plus",
+    "description": "The Dell XPS 13 Plus features an edge-to-edge display, 12th Gen Intel Core processor, and a sleek, minimalist design for top-tier productivity."
+  },
+  {
+    "name": "Asus ROG Strix G15",
+    "description": "Asus ROG Strix G15 gaming laptop comes with AMD Ryzen 9, RTX 3070 GPU, and a 300Hz display for smooth gaming performance."
+  },
+  {
+    "name": "Nike Air Max 270",
+    "description": "Nike Air Max 270 offers all-day comfort with a large Air unit, breathable mesh, and a stylish, modern design."
+  },
+  {
+    "name": "Adidas Ultraboost 22",
+    "description": "Adidas Ultraboost 22 running shoes provide responsive cushioning, energy return, and a Primeknit upper for a snug fit."
+  }
+]
