@@ -34,6 +34,6 @@ productRouter.delete('/delete-product', auth, admin, deleteProductDetails);
 productRouter.post('/search-product', searchProduct);
 
 // recommend product
-productRouter.get('/recommend', recommendProducts);
+productRouter.get('/recommend/:productId', recommendProducts);
 
 export default productRouter;
