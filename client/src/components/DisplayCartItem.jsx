@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import { Link, useNavigate } from 'react-router-dom';
 import { useGlobalContext } from '../provider/GlobalProvider';
@@ -15,6 +15,27 @@ const DisplayCartItem = ({ close }) => {
   const cartItem = useSelector((state) => state.cartItem.cart);
   const user = useSelector((state) => state.user);
   const navigate = useNavigate();
+
+  const [time, setTime] = useState('');
+  const [isUrgency, setIsUrgency] = useState(false);
+
+  // Function to get the current time in "HH:mm" format
+  const getCurrentTime = () => {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    return `${hours}:${minutes}`;
+  };
+
+  // Set initial time when the component mounts
+  useEffect(() => {
+    setTime(getCurrentTime());
+  }, []);
+
+  const handleSliderChange = (e) => {
+    const value = Number(e.target.value);
+    setIsUrgency(value === 100); // Set true if 100, otherwise false
+  };
 
   const redirectToCheckoutPage = () => {
     if (user?._id) {
@@ -108,6 +129,28 @@ const DisplayCartItem = ({ close }) => {
                 <div className="font-semibold flex items-center justify-between gap-4">
                   <p>Grand total</p>
                   <p>{DisplayPriceInRupees(totalPrice)}</p>
+                </div>
+
+                {/* for time management  */}
+                <label htmlFor="time">Enter the time for your pickup: </label>
+                <br />
+                <input
+                  type="time"
+                  value={time}
+                  onChange={(e) => setTime(e.target.value)}
+                />
+                <div className="flex items-center gap-4">
+                  <span>Low</span>
+                  <input
+                    type="range"
+                    min={0}
+                    max={100}
+                    step={100} // Ensures only 0 or 100
+                    value={isUrgency ? 100 : 0}
+                    onChange={handleSliderChange}
+                    className="range"
+                  />
+                  <span>High</span>
                 </div>
               </div>
             </>

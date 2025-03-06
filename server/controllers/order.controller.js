@@ -6,11 +6,78 @@ import mongoose from 'mongoose';
 import NotificationModel from '../models/notification.model.js';
 import ProductModel from '../models/product.model.js';
 import CartModel from '../models/cartproduct.model.js';
+import MDPSystem from '../services/timeManagement.js';
+import { getNextAvailableTimeSlot } from '../services/timeManagement.js';
+
+// export async function CashOnDeliveryOrderController(request, response) {
+//   try {
+//     const userId = request.userId;
+//     const { list_items, totalAmt, addressId, subTotalAmt } = request.body;
+
+//     const payload = await Promise.all(
+//       list_items.map(async (el) => {
+//         const product = await ProductModel.findById(el.productId).populate(
+//           'adminId'
+//         );
+
+//         if (!product) {
+//           throw new Error('Product Not Found');
+//         }
+
+//         const order = {
+//           userId,
+//           orderId: `ORD-${new mongoose.Types.ObjectId()}`,
+//           productId: product._id,
+//           product_details: {
+//             name: product.name,
+//             image: product.image,
+//           },
+//           paymentId: '',
+//           payment_status: 'CASH ON DELIVERY',
+//           delivery_address: addressId,
+//           subTotalAmt: subTotalAmt,
+//           totalAmt: totalAmt,
+//           adminId: product.adminId,
+//         };
+
+//         const newOrder = await OrderModel.create(order);
+
+//         // 🔥 Notification Save Karega
+//         await NotificationModel.create({
+//           orderId: newOrder._id,
+//           adminId: product.adminId,
+//           message: `New Order Received with OrderId: ${newOrder.orderId}`,
+//         });
+
+//         return newOrder;
+//       })
+//     );
+
+//     await CartModel.deleteMany({ userId });
+
+//     return response.json({
+//       message: 'Order Placed Successfully',
+//       data: payload,
+//       error: false,
+//       success: true,
+//     });
+//   } catch (error) {
+//     console.log('Order Error:', error);
+//     return response.status(500).json({
+//       message: error.message,
+//       error: true,
+//       success: false,
+//     });
+//   }
+// }
 
 export async function CashOnDeliveryOrderController(request, response) {
   try {
     const userId = request.userId;
-    const { list_items, totalAmt, addressId, subTotalAmt } = request.body;
+
+    const { list_items, totalAmt, addressId, subTotalAmt, urgency, orderTime } =
+      request.body;
+    console.log('from cash on delivery ', request.body);
 
     const payload = await Promise.all(
       list_items.map(async (el) => {
@@ -21,6 +88,11 @@ export async function CashOnDeliveryOrderController(request, response) {
         if (!product) {
           throw new Error('Product Not Found');
         }
+
+        // Calculate estimated delivery time
+        const estimatedDeliveryTime = await getNextAvailableTimeSlot(
+          product.adminId
+        );
 
         const order = {
           userId,
@@ -33,14 +105,17 @@ export async function CashOnDeliveryOrderController(request, response) {
           paymentId: '',
           payment_status: 'CASH ON DELIVERY',
           delivery_address: addressId,
-          subTotalAmt: subTotalAmt,
-          totalAmt: totalAmt,
+          subTotalAmt,
+          totalAmt,
           adminId: product.adminId,
+          urgency,
+          orderTime,
         };
 
         const newOrder = await OrderModel.create(order);
+        await MDPSystem.allocateOrders(newOrder);
 
-        // 🔥 Notification Save Karega
+        // Send notification to the admin
         await NotificationModel.create({
           orderId: newOrder._id,
           adminId: product.adminId,
@@ -51,6 +126,7 @@ export async function CashOnDeliveryOrderController(request, response) {
       })
     );
 
+    // Clear the user's cart after placing the order
     await CartModel.deleteMany({ userId });
 
     return response.json({

@@ -231,3 +231,97 @@ const ProductDisplayPage = () => {
 };
 
 export default ProductDisplayPage;
+
+// import React, { useEffect, useState } from 'react';
+// import { useParams } from 'react-router-dom';
+// import { useDispatch, useSelector } from 'react-redux';
+// import { fetchRecommendedProducts } from '../store/recommendedProductsSlice.js';
+// import SummaryApi from '../common/SummaryApi';
+// import Axios from '../utils/Axios';
+// import AxiosToastError from '../utils/AxiosToastError';
+
+// const ProductDisplayPage = () => {
+//   const { productId } = useParams();
+//   const dispatch = useDispatch();
+//   const [productDetails, setProductDetails] = useState(null);
+
+//   // Get recommended products from Redux store
+//   const { recommendedProducts, loading } = useSelector(
+//     (state) => state.recommendedProducts
+//   );
+
+//   // Fetch product details
+//   useEffect(() => {
+//     const fetchProductDetails = async () => {
+//       try {
+//         const response = await Axios({
+//           ...SummaryApi.getProductDetails,
+//           data: { productId }, // Sending productId in the body
+//         });
+//         if (response.data.success) {
+//           setProductDetails(response.data.data);
+//         }
+//       } catch (error) {
+//         AxiosToastError(error);
+//       }
+//     };
+
+//     if (productId) fetchProductDetails();
+//   }, [productId]);
+
+//   // Fetch recommended products using Redux
+//   useEffect(() => {
+//     if (productId) {
+//       dispatch(fetchRecommendedProducts(productId)); // Dispatching Redux action
+//     }
+//   }, [productId, dispatch]);
+
+//   return (
+//     <div className="container mx-auto p-4">
+//       {/* Product Details */}
+//       {productDetails ? (
+//         <div>
+//           <h1 className="text-2xl font-bold">{productDetails.name}</h1>
+//           <img
+//             src={productDetails.image}
+//             alt={productDetails.name}
+//             className="w-64 h-64"
+//           />
+//           <p>{productDetails.description}</p>
+//           <p className="font-semibold">Price: ${productDetails.price}</p>
+//         </div>
+//       ) : (
+//         <p>Loading product details...</p>
+//       )}
+
+//       {/* Related Products */}
+//       <h2 className="text-xl font-semibold mt-8">Related Products</h2>
+//       {loading ? (
+//         <p>Loading recommendations...</p>
+//       ) : (
+//         <div className="grid grid-cols-3 gap-4 mt-4">
+//           {recommendedProducts.length > 0 ? (
+//             recommendedProducts.map((product) => (
+//               <div
+//                 key={product._id}
+//                 className="border p-2 rounded-lg shadow-sm"
+//               >
+//                 <img
+//                   src={product.image}
+//                   alt={product.name}
+//                   className="w-32 h-32"
+//                 />
+//                 <h3 className="text-lg">{product.name}</h3>
+//                 <p className="text-gray-600">${product.price}</p>
+//               </div>
+//             ))
+//           ) : (
+//             <p>No related products found.</p>
+//           )}
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default ProductDisplayPage;

@@ -332,9 +332,69 @@ export const searchProduct = async (request, response) => {
 };
 
 //recommendation system
+// export const recommendProducts = async (request, response) => {
+//   try {
+//     const { productId } = request.body;
+
+//     if (!productId) {
+//       return response.status(400).json({
+//         message: 'Provide productId',
+//         error: true,
+//         success: false,
+//       });
+//     }
+
+//     // Fetch all products from the database
+//     const products = await ProductModel.find({}, '_id name description');
+
+//     // Find the target product
+//     const targetProduct = products.find((p) => p._id.toString() === productId);
+//     if (!targetProduct) {
+//       return response.status(404).json({
+//         message: 'Product not found',
+//         error: true,
+//         success: false,
+//       });
+//     }
+
+//     // Add all product descriptions to TF-IDF
+//     products.forEach((product) => {
+//       tfidf.addDocument(product.description);
+//     });
+
+//     // Compute similarity scores
+//     let similarities = [];
+//     tfidf.tfidfs(targetProduct.description, (i, measure) => {
+//       similarities.push({ product: products[i], score: measure });
+//     });
+
+//     // Sort by similarity score (descending)
+//     similarities.sort((a, b) => b.score - a.score);
+
+//     // Get top 5 recommendations (excluding the target product itself)
+//     const recommendedProducts = similarities
+//       .filter((s) => s.product._id.toString() !== productId)
+//       .slice(0, 5)
+//       .map((s) => s.product);
+
+//     return response.json({
+//       message: 'Recommended products',
+//       data: recommendedProducts,
+//       error: false,
+//       success: true,
+//     });
+//   } catch (error) {
+//     return response.status(500).json({
+//       message: error.message || error,
+//       error: true,
+//       success: false,
+//     });
+//   }
+// };
+
 export const recommendProducts = async (request, response) => {
   try {
-    const { productId } = request.body;
+    const { productId } = request.params;
 
     if (!productId) {
       return response.status(400).json({
@@ -357,7 +417,9 @@ export const recommendProducts = async (request, response) => {
       });
     }
 
-    // Add all product descriptions to TF-IDF
+    // ✅ Create a fresh instance of TF-IDF per request
+    const tfidf = new TfIdf();
+
     products.forEach((product) => {
       tfidf.addDocument(product.description);
     });
@@ -365,7 +427,9 @@ export const recommendProducts = async (request, response) => {
     // Compute similarity scores
     let similarities = [];
     tfidf.tfidfs(targetProduct.description, (i, measure) => {
-      similarities.push({ product: products[i], score: measure });
+      if (products[i]) {
+        similarities.push({ product: products[i], score: measure });
+      }
     });
 
     // Sort by similarity score (descending)

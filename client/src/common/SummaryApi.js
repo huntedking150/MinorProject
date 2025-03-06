@@ -97,6 +97,11 @@ const SummaryApi = {
     url: '/api/product/get-product-details',
     method: 'post',
   },
+  getRecommendedProducts: {
+    url: (productId) => `/api/recommend/${productId}`, // ✅ Use productId in URL
+    method: 'get', // ✅ Change method to 'get'
+  },
+
   updateProductDetails: {
     url: '/api/product/update-product-details',
     method: 'put',

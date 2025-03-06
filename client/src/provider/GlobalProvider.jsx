@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Axios from '../utils/Axios';
 import SummaryApi from '../common/SummaryApi';
 import { useDispatch, useSelector } from 'react-redux';
@@ -9,12 +10,18 @@ import { pricewithDiscount } from '../utils/PriceWithDiscount';
 import { handleAddAddress } from '../store/addressSlice';
 import { setOrder } from '../store/orderSlice';
 import { setAllOrders } from '../store/allOrdersSlice';
+import {
+  setError,
+  setLoading,
+  setRecommendations,
+} from '../store/recommendationSlice.js';
 
 export const GlobalContext = createContext(null);
 
 export const useGlobalContext = () => useContext(GlobalContext);
 
 const GlobalProvider = ({ children }) => {
+  const { productId } = useParams();
   const dispatch = useDispatch();
   const [totalPrice, setTotalPrice] = useState(0);
   const [notDiscountTotalPrice, setNotDiscountTotalPrice] = useState(0);
@@ -149,6 +156,75 @@ const GlobalProvider = ({ children }) => {
     }
   };
 
+  // const fetchRecommendations = async () => {
+  //   try {
+  //     const response = await Axios({
+  //       ...SummaryApi.getRecommendedProducts,
+  //     });
+  //     const { data: responseData } = response;
+
+  //     if (responseData.success) {
+  //       dispatch(setRecommendations(responseData.data));
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
+  // const fetchRecommendations = async (productId) => {
+  //   dispatch(setLoading(true)); // Set loading to true before making request
+
+  //   try {
+  //     const response = await Axios.get(
+  //       SummaryApi.getRecommendedProducts(productId)
+  //     ); // ✅ Pass productId dynamically
+
+  //     const { data: responseData } = response;
+
+  //     if (responseData.success) {
+  //       dispatch(setRecommendations(responseData.data)); // Store related products in Redux
+  //     } else {
+  //       dispatch(setError('Failed to fetch related products'));
+  //     }
+  //   } catch (error) {
+  //     dispatch(
+  //       setError(
+  //         error.message || 'An error occurred while fetching recommendations'
+  //       )
+  //     );
+  //   } finally {
+  //     dispatch(setLoading(false)); // Set loading to false after request completes
+  //   }
+  // };
+
+  const fetchRecommendations = async (productId) => {
+    if (!productId) return; // Ensure productId is provided
+
+    dispatch(setLoading(true)); // Set loading state before making request
+
+    try {
+      // ✅ Correct API call with GET request
+      const response = await Axios.get(
+        SummaryApi.getRecommendedProducts(productId)
+      );
+      const { data: responseData } = response;
+
+      if (responseData.success) {
+        dispatch(setRecommendations(responseData.data)); // Store related products in Redux
+      } else {
+        dispatch(setError('Failed to fetch related products'));
+      }
+    } catch (error) {
+      dispatch(
+        setError(
+          error.message || 'An error occurred while fetching recommendations'
+        )
+      );
+    } finally {
+      dispatch(setLoading(false)); // Set loading to false after request completes
+    }
+  };
+
   useEffect(() => {
     fetchCartItem();
     handleLogoutOut();
@@ -156,6 +232,11 @@ const GlobalProvider = ({ children }) => {
     fetchOrder();
     fetchAllOrders();
   }, [user]);
+  useEffect(() => {
+    if (productId) {
+      fetchRecommendations(productId); // ✅ Use productId from useParams
+    }
+  }, [productId]); // ✅ Runs when productId changes
 
   return (
     <GlobalContext.Provider
@@ -169,6 +250,7 @@ const GlobalProvider = ({ children }) => {
         notDiscountTotalPrice,
         fetchOrder,
         fetchAllOrders,
+        fetchRecommendations,
       }}
     >
       {children}

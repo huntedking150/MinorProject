@@ -24,10 +24,6 @@ const orderSchema = new mongoose.Schema(
       name: String,
       image: Array,
     },
-    userId: {
-      type: mongoose.Schema.ObjectId,
-      ref: 'User',
-    },
     paymentId: {
       type: String,
       default: '',
@@ -52,6 +48,11 @@ const orderSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
+    orderTime: {
+      type: Date,
+      default: null, // Will be assigned dynamically
+    },
+    urgency: { type: Number, default: false },
   },
   {
     timestamps: true,
